@@ -1,0 +1,143 @@
+.main{
+   height: 100%;
+    width: 100%;
+}
+.main1{
+    height:100%;
+    width:100%;
+    background-color:lightgrey;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    
+
+}
+h1:hover{
+    color:lightseagreen;
+    cursor: pointer;
+}
+.nav{
+  display: flex;
+  gap:2vw;
+  padding-right:10px;
+}
+.main2{
+    height:20%;
+    width: 100%;
+    background-color: black;
+    color: black;
+}
+.nav2{
+    background-color: lightseagreen;
+    border: 2px solid black;
+    border-radius:10px;
+    
+}
+.nav2:hover{
+    cursor: pointer;
+    color:white;
+    background-color: black;
+}
+.nav i{
+    font-size:3vw;
+    padding-top:7px;
+}
+.main .section{
+   
+    background-image: url(360_F_271775672_yo8ZgraN2IHGbfqP2k0PsLjwvmatUNUJ.jpg) ;
+    height:45vw;
+    width:100%;
+    margin-top: 0%;
+    background-size: cover;
+    background-position: center;
+
+}
+.section2{
+    padding-left:50vw;
+    padding-top:10vw;
+}
+.section2 .i1{
+    font-size:4vw;
+    font-weight:700;
+}
+.section2 .i2{
+    font-size:2vw;
+    font-weight:600;
+}
+.section2 .i3{
+    font-size:1.5vw;
+    font-weight:600;
+}
+.section2 .btn{
+   text-decoration: none;
+   color: black;
+   cursor: pointer;
+   border:3px solid black;
+   font-size:2vw;
+}
+.section2 .btn:hover{
+    background-color:black;
+    color: white;
+}
+.footer{
+   
+   width: 100%; 
+    background-color: lightgrey;
+    display: flex;
+    gap:21vw;
+    
+}
+.footer .footer1:hover{
+    cursor: pointer;
+    color: lightseagreen;
+}
+.footer .footer2:hover{
+    cursor: pointer;
+    color: lightseagreen;
+}
+
+
+@media (max-width:600px){
+    .main{
+        height:20%;
+        width:100%;
+    }
+    .main1{
+        font-size:3vw;
+    }
+    .nav .nav2{
+        display: none;
+    }
+    .nav i{
+        display: block;
+        font-size:7vw;
+    }
+    .main .section{
+        height:100vw;
+    }
+    .section2 .i1{
+        font-size:7vw;
+        font-weight:700;
+    }
+    .section2 .i2{
+        font-size:5vw;
+        font-weight:600;
+    }
+    .section2 .i3{
+        font-size:4vw;
+        font-weight:600;
+    }
+    .section2 .btn{
+        font-size:4vw;
+    }
+    .footer{
+        height:100vw;
+    }
+    .footer {
+        
+     gap:7vw;   
+        
+    }
+
+    
+}
